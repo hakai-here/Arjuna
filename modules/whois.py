@@ -52,3 +52,49 @@ def s_m(x,t,value):
             t.add_row(["",""])
     else:
         return
+ 
+def whois_module(domain):
+    print("\n")
+    w = whois.whois(domain)
+    
+    t = PrettyTable(["Options ","Information"])
+    s_m(w.domain_name,t,"Domain name")
+    t.add_row(["Organization",org(w)])
+    s_m(w.registrar,t,"Registrar")
+    t.add_row(["Registrar_url",registar_address(w)])
+    s_m(w.emails,t,"Email")
+    cdate=date_format(w.creation_date)
+    s_m(cdate,t,"creation date")
+    cdate=date_format(w.updated_date)
+    s_m(cdate,t,"Updated date")
+    cdate=date_format(w.expiration_date)
+    s_m(cdate,t,"Expiration Date")
+    s_m(w.name_servers,t,"Name Server")
+    s_m(w.country,t,"Country")
+    s_m(w.city,t,"City")
+    s_m(w.state,t,"State")
+    s_m(w.zipcode,t,"Zipcode")
+    
+
+    print(t)
+
+    print("\n")
+
+
+
+
+def main():
+    arg=parse_arg()
+    domain = arg.domain
+
+    whois_module(domain)
+
+
+
+
+if __name__ == "__main__":
+
+    try:
+        main()
+    except TypeError:
+        print("\n Missing arguments  ")
