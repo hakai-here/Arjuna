@@ -29,8 +29,26 @@ def date_format(x):
             r = i.strftime("%d")+"/"+i.strftime("%m")+"/"+i.strftime("%Y")
             list2.append(r)
         return list2
+
 def org(w):
     if w.org:
         return w.org
     elif w.organization:
         return w.organization
+
+
+
+def s_m(x,t,value):
+    if (x != None):
+        if type(x) == str:
+            t.add_row([value,x])
+        else:
+            t.add_row([value+"s",'-------'])
+            i = 1
+            for y in x:
+                t.add_row([str(i)+".",y])
+                i+=1
+            t.add_row(["","-------"])
+            t.add_row(["",""])
+    else:
+        return
