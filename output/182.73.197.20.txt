@@ -1,0 +1,9 @@
+www.vitbhopal.ac.in
+app.vitbhopal.ac.in
+dev.vitbhopal.ac.in
+ffcs.vitbhopal.ac.in
+moodle.vitbhopal.ac.in
+myerp.vitbhopal.ac.in
+online.vitbhopal.ac.in
+task.vitbhopal.ac.in
+vtop.vitbhopal.ac.in
