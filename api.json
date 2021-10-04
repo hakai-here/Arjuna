@@ -1,0 +1,25 @@
+{
+    "Virus_Total":[
+        {
+            "api" : "d595f7b2883822917985b51fdfd236fab8b798e59a7ed7439b1fe2e6c653b8e0"
+        }
+     ],
+
+    "Numverify":[
+        {
+            "api" : "abc2184e4a5684d3970e95867a29f5a7"
+        }
+    ],
+
+    "Hunter":[
+        {
+            "api":"9f189e87e011a1d2f3013ace7b14045dec60f62c"
+        }
+    ],
+    "Abstract":[
+        {
+            "api":"493cbeae8b004615b60d19b04ed42132"
+        }
+    ]
+
+}
