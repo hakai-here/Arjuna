@@ -113,6 +113,7 @@ def init_module():
     print(menu)
     global z
     while True:
+        flush()
         get_input = input(G+Bld+f"[{username}@Analyzer]$ "+W)
         if 'showall' in get_input:
             z = True
