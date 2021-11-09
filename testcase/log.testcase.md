@@ -29,4 +29,4 @@
 
 |  Filename  |Description | Commited By| Check needed |Where to add |Apporved by |Attached |
 |:---------:|:----------:|:-------------:|:------------:|:-------:|:--------:|:-----:|
-| dock.py| A module for doing google dorking to find links | d8rkmind | Yes |A new command named dork/search| 1/3 | No| 
+| dock.py| A module for doing google dorking to find links | d8rkmind | Yes |A new command named dork/search| 2/3 | No| 
