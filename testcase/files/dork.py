@@ -8,6 +8,16 @@ green ="\033[92m"
 end = "\033[0m"
 red = "\033[91m"
 
+'''
+Problem occured and needed to be resolved  :
+    google is blocking all request after 2 runs
+
+'''
+
+
+
+
+
 url = "https://www.google.com/search?q={main}%20{side}&start=0&client=firefox-b-e"
 header = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" ,
