@@ -11,6 +11,7 @@ red = "\033[91m"
 '''
 Problem occured and needed to be resolved  :
     google is blocking all request after 2 runs
+    add more dorks if possible 
 
 '''
 
