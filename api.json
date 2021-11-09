@@ -1,24 +1,18 @@
 {
     "Virus_Total":[
         {
-            "api" : "d595f7b2883822917985b51fdfd236fab8b798e59a7ed7439b1fe2e6c653b8e0"
+            "api" : "10acfca6dbe30efb333e10bd4725508bf2641f2b07f9a6a27fce60c051912747"
         }
      ],
 
-    "Numverify":[
-        {
-            "api" : "abc2184e4a5684d3970e95867a29f5a7"
-        }
-    ],
-
-    "Hunter":[
-        {
-            "api":""
-        }
-    ],
     "Abstract":[
         {
             "api":"493cbeae8b004615b60d19b04ed42132"
+        }
+    ],
+    "Shodan":[
+        {
+        "api": "e9SxSRCE1xDNS4CzyWzOQTUoE55KB9HX"
         }
     ]
 
