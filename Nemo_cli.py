@@ -1,4 +1,4 @@
-from prompt_toolkit.shortcuts.prompt import prompt
+
 import json
 import requests
 from extra.displaylist import Logo, Main_menu, Menu
@@ -32,7 +32,7 @@ def main():
                 for i in Log:
                     print(i)
                 print(" ")
-                l=prompt("Would you like to print log (y/n) ")
+                l=input("Would you like to print log (y/n) ")
                 if l.lower() == "y":
                     log_print() 
             elif x.lower() in ["clear","cls","-="]:
