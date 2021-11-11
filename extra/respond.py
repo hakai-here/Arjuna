@@ -23,7 +23,8 @@ from modules.domain.iplookup import init_sh_scan, ip_init
 from modules.domain.portscan import main as scanp
 from modules.domain.vulnscan import init_vulnscan
 from modules.domain.whois import whois_call
-from modules.username.userhunter import main as user
+from modules.domain.dork import init_dorks
+
 
 def proceed(k,x):
         k=k.lower()
@@ -55,5 +56,7 @@ def proceed(k,x):
             init_hny(x)
         elif k in ["12","ipmap"]:
             ip_map(x)
+        elif k in ["13","dork"]:
+            init_dorks
 
 
