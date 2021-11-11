@@ -57,6 +57,6 @@ def proceed(k,x):
         elif k in ["12","ipmap"]:
             ip_map(x)
         elif k in ["13","dork"]:
-            init_dorks
+            init_dorks(x)
 
 
