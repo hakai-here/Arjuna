@@ -11,9 +11,9 @@
 
 #### How to run 
 
-1.Set a target 
+1.Set a target (Domain in case of first 16 modules and 18th module, Password in case of 17th module)
 ```
->T1T5 >> set example.com
+>T1T5 >> set example.com/P@ssw0rd
 ```
 2.Run options 
 ```
