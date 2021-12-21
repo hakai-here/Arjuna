@@ -1,6 +1,12 @@
 <h1 align="center">T1T5</h1>
 
 
+#### Installation 
+
+```
+ sudo update-alternatives --config python3
+ git clone https://github.com/d8rkmind/T1T5.git
+ ```
 
 #### Setup 
 
