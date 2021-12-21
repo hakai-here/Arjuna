@@ -27,6 +27,4 @@ if __name__ == "__main__":
     print(banner)
     main()
 
-def ui():
-    print(banner)
     
