@@ -22,8 +22,8 @@ Menu='''
         14   github     To find github repo's related to this 
         15   activescan Scan Risk for Mx and Ns servers from Dns Records
         16   csearch    To preform search to find useful links 
-        17   ohcrawler  Crawler to get further information about target 
-        18   passwd     To start with dedicated google dorking without even visiting the browser for searching
+        17   passwd     To start with dedicated google dorking without even visiting the browser for searching
+        18   ohcrawler  Crawler to get further information about target 
            
 
 
