@@ -6,7 +6,7 @@ def web_api_data(query_char):
     res = requests.get(url)
     if res.status_code != 200:
         raise RuntimeError(
-            f'Error fetching:{res.status_code}, check the api and try again.')
+            f'Error fetching:{res.status_code}, please check you API and try again with correct API.')
     return res
 
 
@@ -32,9 +32,9 @@ def nemopass(passwords):
         count = CheckPos(password)
         if count:
             print(
-                f'{password} was found {count} times....you should change your password')
+                f'{password} is found {count} times in breach directory. It is heighly reccomended for you to change the password.')
         else:
-            print(f'{password} was Not found. Carry on!')
+            print(f'{password} looks safe as it was not found in password breach directory.')
     return "checked"
 
 
