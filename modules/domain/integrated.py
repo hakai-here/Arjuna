@@ -1,4 +1,4 @@
-from tabulate import tabulate
+
 import re
 import multiprocessing
 import json
