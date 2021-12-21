@@ -1,0 +1,5 @@
+prettytable
+bs4
+shodan
+treelib
+python-whois
