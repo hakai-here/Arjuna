@@ -1,4 +1,4 @@
-<h1 align="center">T1T5</h1>
+<h1 align="center">Arjuna</h1>
 
 
 #### Installation 
