@@ -5,14 +5,14 @@
 
 ```
  sudo update-alternatives --config python3
- git clone https://github.com/d8rkmind/T1T5.git
+ git clone https://github.com/d8rkmind/Arjuna.git
  ```
 
 #### Setup 
 
 ```
  pip3 install -r requirements.txt
- python3 t1t5.py
+ python3 Arjuna.py
  ```
 
 #### How to run 
